@@ -1,11 +1,9 @@
 body {
   display: flex;
-  box-sizing: border-box;
 }
 .block {
   height: 300px;
-  width: 300px;
-  flex-shrink: 1;
+  flex-grow: 1;
 }
 .block_red {
   background-color: red;
